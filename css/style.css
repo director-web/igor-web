@@ -194,6 +194,7 @@ body {
 }
 
 .products__title img {
+    width: 100%;
     margin-bottom: 20px;
 }
 
