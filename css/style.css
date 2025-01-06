@@ -1,0 +1,515 @@
+@import url(./fonts.css);
+@import url(./media.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+/* HEADER - начало */
+
+.header__nav {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header__link {
+    color: #000000;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.DESK {
+    height: 100vh;
+    background-image: url(../img/1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.DESK__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.DESK__content-title {
+    font-weight: 400;
+    font-size: 43px;
+    color: white;
+}
+
+.DESK__content-text {
+    margin-top: 12px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+}
+
+.DESK__content-text2 {
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* HEADER - конец */
+
+/* MAIN - начало */
+
+/* laptop - начало */
+
+.laptop {
+    margin-top: 80px;
+}
+
+.laptop__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.laptop__title h3 {
+    font-weight: 400;
+    font-size: 43px;
+    color: black;
+}
+
+.laptop__title p {
+    margin-top: 23px;
+    margin-bottom: 26px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #A0A0A0;
+}
+
+.laptop__title a {
+    color: #000;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.laptop__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.laptop__content-block img {
+    width: 500px;
+}
+
+.laptop__content-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.laptop__content-block h3 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 27px;
+    color: #000;
+}
+
+.laptop__content-block p {
+    font-weight: 400;
+    font-size: 13px;
+    color: #000;
+}
+
+/* laptop - конец */
+
+/* products - начало */
+
+.products {
+    margin-top: 80px;
+}
+
+.products__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.products__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.products__title h3 {
+    font-weight: 400;
+    font-size: 33px;
+    color: #000;
+}
+
+.products__title p {
+    color: #A0A0A0;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 43px;
+    margin-top: 16px;
+}
+
+.products__title img {
+    margin-bottom: 20px;
+}
+
+.products__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.products__block img {
+    width: 240px;
+}
+
+.products__block h5 {
+    color: #A0A0A0;
+    margin-top: 22px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.products__block p {
+    color: #A0A0A0;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.products__block1 img {
+    width: 240px;
+}
+
+.products__block1 h5 {
+    color: #A0A0A0;
+    margin-top: 22px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.products__block1 p {
+    color: #A0A0A0;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/* products - конец */
+
+/* home - начало */
+
+.home {
+    margin-top: 80px;
+    height: 50vh;
+    background-image: url(../img/7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.home__content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home__content h3 {
+    font-weight: 400;
+    font-size: 66px;
+    color: white;
+}
+
+.home__content p {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+
+.home__content a {
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+}
+
+/* home - конец */
+
+
+/* Made - начало */
+
+.Made {
+    margin-top: 80px;
+}
+
+.Made__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Made__content-title {
+    color: #000000;
+    font-weight: 400;
+    font-size: 34px;
+}
+
+.Made__content-text {
+    color: #A0A0A0;
+    text-align: center;
+    margin-top: 23px;
+    margin-bottom: 23px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.Made__content img{
+    width: 100%;
+}
+
+/* Made - конец */
+
+/* Make - начало */
+
+.Make {
+    margin-top: 40px;
+}
+
+.Make__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Make__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.Make__info-title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 34px;
+    color: #000;
+}
+
+.Make__info-text {
+    color: #A0A0A0;
+    margin-top: 25px;
+    margin-bottom: 80px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.Make__img {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+/* Make - конец */
+
+/* We - начало */
+
+.We {
+    margin-top: 100px;
+}
+
+.We__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.We__content-title {
+    color: #000;
+    font-size: 34px;
+    font-weight: 400;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.We__content-a {
+    text-align: center;
+    color: #000;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+/* We - конец */
+
+/* desing - начало */
+
+.desing {
+    margin-top: 120px;
+}
+
+.desing__content {
+    padding: 120px 145px;
+    background: #9AA8B1;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.desing__content-title {
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 43px;
+    text-align: center;
+}
+
+.desing__content-text {
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+}
+
+/* desing - конец */
+/* MAIN - конец */
+
+/* footer - начало */
+
+.footer {
+    background: #F9F9F9;
+}
+
+.footer__content {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__info-block3 {
+    position: relative;
+}
+
+.footer__info-block3 img {
+    margin-bottom: 300px;
+    margin-left: 420px;
+}
+
+.footer__info-block1 {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer__info-block1 h3 {
+    font-weight: 400;
+    color: #000;
+    font-size: 22px;
+}
+
+.footer__info-block2 {
+    margin-left: 12px;
+    width: 500px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer__info-block2 h3 {
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+    color: #000;
+}
+
+.footer__info-block2 p {
+    margin-top: 25px;
+    margin-bottom: 91px;
+    color: #A0A0A0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer__a{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__a p{
+    color: #707A7F;
+    font-size: 13px;
+    font-weight: 400;
+    margin-right: 37px;
+}
+
+.footer__a a{
+    color: #000000;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+/* footer - конец */
